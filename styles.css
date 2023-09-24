@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+#about {
+    padding: 50px;
+
+}
+
+
+/* Carousel styles */
+#carousel {
+    /* Add your carousel styles here */
+}
+
+/* Amenities styles */
+#amenities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .amenity {
+    flex-basis: 50%; /* Two columns by default */
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 700px) {
+    .amenity {
+      flex-basis: 100%; /* One column for smaller screens */
+    }
+  }
+
+/* Booking styles */
+#booking {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Reviews styles */
+#reviews {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+  
+  /* .pic-ctn {
+    width: 300px;
+    height: 200px;
+  } */
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    align-self: center;
+    width: 70vw;
+    height: 70vh;
+    margin: 15px auto;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 70vw;
+    max-height: 70vh;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: display 20s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 4s;
+  }
+  img:nth-child(3) {
+    animation-delay: 8s;
+  }
+  img:nth-child(4) {
+    animation-delay: 12s;
+  }
+  img:nth-child(5) {
+    animation-delay: 16s;
+  }
