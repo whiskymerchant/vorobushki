@@ -3,5 +3,11 @@
 Технологии:
 HTML и CSS
 Слайдер на чистом CSS
-Git
+GitHub
 Sqoosh для сжатия картинок
+Cursor IDE
+
+Routes:
+/policy - политика обработки персональных данных
+/house-rules - правила дома (вход по QR коду)
+
