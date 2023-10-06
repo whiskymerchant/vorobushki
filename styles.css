@@ -52,17 +52,33 @@ header {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 800px) {
+  .section-header {
+    margin-left: 50px;
+    margin-top: 50px;  }
+}
+
 #about {
     padding: 50px 200px 50px 200px;
     background-color: #f8e4d1;
-
 }
 
+@media screen and (max-width: 800px) {
+  #about {
+padding: 30px 50px 30px 50px;
+  }
+}
 
+@media screen and (max-width: 800px) {
+  #carousel {
+    max-width: 95vh;/* Adjust the margin as needed */
+  }
+}
 /* Carousel styles */
 #carousel {
     /* Add your carousel styles here */
 }
+
 
 /* Amenities styles */
 #amenities {
@@ -154,6 +170,18 @@ footer {
     width: 70vw;
     height: 70vh;
     margin: 15px auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    .pic-ctn {
+      height: 45vh;/* Adjust the margin as needed */
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .pic-ctn {
+      height: 55vh;/* Adjust the margin as needed */
+    }
   }
   
   .pic-ctn > img {
